@@ -29,7 +29,7 @@ namespace LinkPad
         private void label3_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\games\Try_To_ESCAPE_ GAME.exe";
+            jeuProcess.StartInfo.FileName = path + @"\games\Try_To_ESCAPE_GAME.exe";
             jeuProcess.Start();
         }
 
