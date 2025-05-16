@@ -29,7 +29,7 @@ namespace LinkPad
         private void label3_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\Try_To_ESCAPE_ GAME.exe";
+            jeuProcess.StartInfo.FileName = path + @"\games\Try_To_ESCAPE_ GAME.exe";
             jeuProcess.Start();
         }
 
@@ -37,7 +37,7 @@ namespace LinkPad
         private void label4_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\Idle Game --Strange Village--";
+            jeuProcess.StartInfo.FileName = path + @"\games\Idle Game --Strange Village--";
             jeuProcess.Start();
         }
 
@@ -45,7 +45,7 @@ namespace LinkPad
         private void label5_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\Chronomètre Ultime.exe";
+            jeuProcess.StartInfo.FileName = path + @"\games\Chronomètre Ultime.exe";
             jeuProcess.Start();
         }
 
@@ -53,7 +53,7 @@ namespace LinkPad
         private void label6_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\bataille navale escape.exe";
+            jeuProcess.StartInfo.FileName = path + @"\games\bataille navale escape.exe";
             jeuProcess.Start();
         }
 
@@ -115,7 +115,7 @@ namespace LinkPad
         private void label7_Click(object sender, EventArgs e)
         {
             Process jeuProcess = new Process();
-            jeuProcess.StartInfo.FileName = path + @"\Auto Clicker Special.exe";
+            jeuProcess.StartInfo.FileName = path + @"\games\Auto Clicker Special.exe";
             jeuProcess.Start();
         }
 
